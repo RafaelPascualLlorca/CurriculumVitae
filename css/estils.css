@@ -4,12 +4,155 @@
     font-family: "Mulish", sans-serif;
 }
 
-.navegacion {
-    background-color: rgb(173, 24, 24);
-    width: 100%;
-
+#navegacion {
+    background-color: rgb(213, 37, 37);
 }
 
-.icon1, .icon2, .icon3 {
-    
+#rafa, #inicio, #estudios, #experiencia {
+    color: white;
+}
+.introduccion {
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.soyrafa {
+    color: rgb(213, 37, 37);
+    font-size: 300%;
+    padding-left: 30%;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+
+.video {
+    width: 90%;
+    height: 90%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.intro_1, .intro_2 {
+    width: 50%;
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(213, 37, 37);
+    font-size: 250%;
+}
+
+.descripcion {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 120%;
+}
+
+.gustos_1, .gustos_2, .gustos_3, .gustos_4 {
+    width: 50%;
+}
+
+.flex, .flexup {
+    padding-top: 2%;
+    display: flex;
+}
+
+.gustos_1, .gustos_4 {
+    text-align: center;
+}
+
+.gustos_2 {
+    display: block;
+    padding-top: 5%;
+    padding-right: 10%;
+}
+
+.titgustos {
+    color: rgb(213, 37, 37);
+    font-size: 250%;
+}
+
+.txtgustos {
+    font-size: 110%;
+    text-align: justify;
+}
+
+.flexup {
+    padding-top: 3%;
+}
+
+.gustos_3 {
+    display: block;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.imagen {
+    width: 70%;
+}
+
+.fondorojo {
+    background-color: rgb(213, 37, 37) ;
+    text-align: center;
+    margin-top: 4%;
+    padding: 2%;
+    font-size: 120%;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px ) {
+    .introduccion, .flex, .flexup {
+        display: block;
+    }
+
+    .intro_1, .intro_2 {
+        width: 100%;
+    }
+
+    .intro_1 {
+      text-align: center;
+    }
+
+    .soyrafa {
+        color: rgb(213, 37, 37);
+        font-size: 200%;
+        text-align: center;
+        padding-top: 5%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .intro_2 {
+        text-align: center;
+        padding-right: 0%;
+        padding-top: 0%;
+    }
+
+    .video {
+        padding-right: 0%;
+        padding-top: 0%;
+    }
+
+    .gustos_1, .gustos_2, .gustos_3, .gustos_4 {
+        width: 100%;
+    }
+
+    .gustos_2 {
+        padding-top: 5%;
+        padding-right: 4%;
+        padding-left: 4%;
+        text-align: center;
+
+    }
+
+    .gustos_3 {
+        padding-top: 5%;
+        padding-right: 4%;
+        padding-left: 4%;
+        text-align: center;
+
+    }
 }
