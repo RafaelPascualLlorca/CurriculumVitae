@@ -98,9 +98,24 @@
     font-size: 120%;
 }
 
+.maps {
+    width: 100%;
+}
+
+.divimgcarrousel {
+    width: 80%;
+    padding-left: 20%;
+    margin-top: 10%;
+}
+
+.divtexto {
+    background-color: rgba(0, 0, 0, 0.538);
+}
+
 .link {
     color: white;
     text-decoration: none;
+
 }
 
 @media screen and (max-width:800px ) {
