@@ -58,11 +58,11 @@
 
 .gustos_1, .gustos_4 {
     text-align: center;
+    align-content: center;
 }
 
 .gustos_2 {
     display: block;
-    padding-top: 5%;
     padding-right: 10%;
 }
 
@@ -76,10 +76,6 @@
     text-align: justify;
 }
 
-.flexup {
-    padding-top: 3%;
-}
-
 .gustos_3 {
     display: block;
     padding-top: 5%;
@@ -88,6 +84,7 @@
 
 .imagen {
     width: 70%;
+    align-content:  center;
 }
 
 .fondorojo {
@@ -172,13 +169,15 @@
 
 .smx_2, .eso_1, .infografia_2, .gimp_1 {
     text-align: center;
+    align-content:  center;
 }
 
 .smx_1, .eso_2, .infografia_1, .gimp_2 {
     text-align: justify;
+    align-content:  center;
 }
 
-@media screen and (max-width:800px ) {
+@media screen and (max-width:500px ) {
     .introduccion, .flex, .flexup {
         display: block;
     }
@@ -229,5 +228,20 @@
         padding-left: 4%;
         text-align: center;
 
+    }
+
+    .smx_1, .eso_1, .infografia_1, .gimp_1, .smx_2, .eso_2, .infografia_2, .gimp_2 {
+        width: 100%;
+    }
+
+    .smx, .eso, .infografia, .gimp {
+        display: block;
+    }
+    .smx_1, .eso_1, .infografia_1, .gimp_1 {
+        margin-right: 2%;
+    }
+    
+    .smx_2, .eso_2, .infografia_2, .gimp_2 {
+        margin-left: 2%;
     }
 }
