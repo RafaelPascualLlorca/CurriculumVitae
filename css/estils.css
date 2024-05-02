@@ -49,6 +49,7 @@
 
 .gustos_1, .gustos_2, .gustos_3, .gustos_4 {
     width: 50%;
+    align-content: center;
 }
 
 .flex, .flexup {
@@ -58,7 +59,6 @@
 
 .gustos_1, .gustos_4 {
     text-align: center;
-    align-content: center;
 }
 
 .gustos_2 {
@@ -158,6 +158,7 @@
 
 .smx_1, .eso_1, .infografia_1, .gimp_1, .smx_2, .eso_2, .infografia_2, .gimp_2 {
     width: 50%;
+    align-content:  center;
 }
 .smx_1, .eso_1, .infografia_1, .gimp_1 {
     margin-right: 5%;
@@ -169,12 +170,10 @@
 
 .smx_2, .eso_1, .infografia_2, .gimp_1 {
     text-align: center;
-    align-content:  center;
 }
 
 .smx_1, .eso_2, .infografia_1, .gimp_2 {
     text-align: justify;
-    align-content:  center;
 }
 
 @media screen and (max-width:500px ) {
