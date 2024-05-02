@@ -118,6 +118,66 @@
 
 }
 
+.estudios {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.introestudios {
+    font-size: 200%;
+    color: rgb(213, 37, 37);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.cursos {
+    font-size: 175%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.cursos_2 {
+    font-size: 150%;
+    color: rgb(213, 37, 37);
+}
+
+.smx, .eso, .infografia, .gimp {
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.cibernaruim {
+    width: 100%;
+}
+
+.mapsjoan23 {
+    width: 100%;
+}
+
+.imgciber {
+    width: 70%;
+    margin: 5%;
+}
+
+.smx_1, .eso_1, .infografia_1, .gimp_1, .smx_2, .eso_2, .infografia_2, .gimp_2 {
+    width: 50%;
+}
+.smx_1, .eso_1, .infografia_1, .gimp_1 {
+    margin-right: 5%;
+}
+
+.smx_2, .eso_2, .infografia_2, .gimp_2 {
+    margin-left: 5%;
+}
+
+.smx_2, .eso_1, .infografia_2, .gimp_1 {
+    text-align: center;
+}
+
+.smx_1, .eso_2, .infografia_1, .gimp_2 {
+    text-align: justify;
+}
+
 @media screen and (max-width:800px ) {
     .introduccion, .flex, .flexup {
         display: block;
