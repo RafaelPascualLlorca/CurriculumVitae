@@ -229,9 +229,8 @@
         font-size: 130%;
     }
     
-    .txtgustos {
+    .txtgustos, .smx_1, .eso_2, .infografia_1, .gimp_2 {
         font-size: 70%;
-        text-align: justify;
     }
 
     .introestudios {
@@ -241,6 +240,10 @@
     
     .cursos {
         font-size: 120%;
+    }
+
+    .imgciber {
+        width: 100%;
     }
     
 }
@@ -317,8 +320,12 @@
         font-size: 150%;
     }
     
-    .txtgustos {
+    .txtgustos, .smx_1, .eso_2, .infografia_1, .gimp_2 {
         font-size: 90%;
         text-align: justify;
+    }
+
+    .imgciber {
+        width: 90%;
     }
 }
