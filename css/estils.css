@@ -18,7 +18,7 @@
 
 .soyrafa {
     color: rgb(213, 37, 37);
-    font-size: 300%;
+    font-size: 220%;
     padding-left: 30%;
     padding-right: 20%;
     padding-top: 5%;
@@ -26,9 +26,10 @@
 
 .video {
     width: 90%;
-    height: 90%;
+    height: 115%;
     padding-right: 10%;
     padding-top: 5%;
+    padding-bottom: 10%;
 }
 
 .intro_1, .intro_2 {
@@ -38,13 +39,13 @@
 .titulo {
     text-align: center;
     color: rgb(213, 37, 37);
-    font-size: 250%;
+    font-size: 200%;
 }
 
 .descripcion {
     padding-top: 2%;
     text-align: center;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 .cnt {
@@ -66,7 +67,7 @@
 .txtblanc {
     color: white;
     padding-bottom: 2%;
-    font-size: 110%;
+    font-size: 100%;
 }
 
 .cnt_2 {
@@ -96,7 +97,7 @@
 
 .titgustos {
     color: rgb(213, 37, 37);
-    font-size: 250%;
+    font-size: 200%;
 }
 
 .txtgustos {
@@ -120,7 +121,7 @@
     text-align: center;
     margin-top: 4%;
     padding: 2%;
-    font-size: 120%;
+    font-size: 100%;
     margin-bottom: 5%;
 }
 
@@ -150,20 +151,20 @@
 }
 
 .introestudios {
-    font-size: 200%;
+    font-size: 175%;
     color: rgb(213, 37, 37);
     text-align: center;
     padding-bottom: 3%;
 }
 
 .cursos {
-    font-size: 175%;
+    font-size: 150%;
     text-align: center;
     padding-bottom: 2%;
 }
 
 .cursos_2 {
-    font-size: 150%;
+    font-size: 125%;
     color: rgb(213, 37, 37);
 }
 
@@ -181,7 +182,7 @@
 }
 
 .imgciber {
-    width: 70%;
+    width: 90%;
     margin: 5%;
 }
 
@@ -203,6 +204,45 @@
 
 .smx_1, .eso_2, .infografia_1, .gimp_2 {
     text-align: justify;
+}
+
+@media screen and (max-width:800px ) {
+    .soyrafa {
+        font-size: 170%;
+    }
+
+    .titulo {
+        font-size: 150%;
+    }
+    
+    .descripcion {
+        font-size: 100%;
+    }
+
+    .imagen {
+        width: 80%;
+        align-content:  center;
+    }
+
+    .titgustos {
+        color: rgb(213, 37, 37);
+        font-size: 130%;
+    }
+    
+    .txtgustos {
+        font-size: 70%;
+        text-align: justify;
+    }
+
+    .introestudios {
+        font-size: 140%;
+
+    }
+    
+    .cursos {
+        font-size: 120%;
+    }
+    
 }
 
 @media screen and (max-width:500px ) {
@@ -270,5 +310,15 @@
     
     .smx_2, .eso_2, .infografia_2, .gimp_2 {
         margin-left: 2%;
+    }
+
+    .titgustos {
+        color: rgb(213, 37, 37);
+        font-size: 150%;
+    }
+    
+    .txtgustos {
+        font-size: 90%;
+        text-align: justify;
     }
 }
