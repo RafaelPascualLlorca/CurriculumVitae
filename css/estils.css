@@ -204,6 +204,7 @@
 
 .smx_1, .eso_2, .infografia_1, .gimp_2 {
     text-align: justify;
+    font-size: 120%;
 }
 
 @media screen and (max-width:800px ) {
